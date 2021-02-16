@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 col-md-12 col-sm-12">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  
+  </div>
+ 
+</nav>
+
+    </header>
+     <section>
+
+        <!-- Grid row -->
+        <div class="row" style="margin-left: 6rem;">
+      {{#each products}}
+            <!-- Grid column -->
+            <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-4" >
+
+                <!-- Card -->
+                <div class="card" style="width: 28rem;">
+                    <div class="cart" style="box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;">
+
+                    <div class="view zoom overlay z-depth-2 rounded">
+                        <img class="img-fluid w-100"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
+                            alt="Sample">
+                        <a href="#!">
+                            <div class="mask">
+                                <img class="img-fluid w-100" src="">
+                                <div class="mask rgba-black-slight"></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="text-center " style="background-color: #dedcdc; margin-top: -3.0rem;">
+
+                        <h5 class="mt-4">Fantasy T-shirt</h5>
+                        <p class="mb-2 text-muted text-uppercase small">Shirts</p>
+                        <ul class="rating" style="list-style-type: none; transform: rotate(-90deg); margin-top: -1.1rem;">
+                            <li>
+                                <i class="fa fa-star fa-sm text-primary"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-star fa-sm text-primary"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-star fa-sm text-primary"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-star fa-sm text-primary"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-star fa-sm text-primary"></i>
+                            </li>
+                        </ul>
+                        <hr style="margin-top: -3rem;">
+                        <h6 class="mb-3">12.99 </h6>
+                        <button type="button" class="btn btn-primary btn-sm mr-1 mb-2"><i
+                                class="fa fa-shopping-cart pr-2"></i>Add to cart</button>
+                        <button type="button" class="btn btn-light btn-sm mr-1 mb-2"><i
+                                class="fa fa-info-circle pr-2"></i>Details</button>
+                        <a href="" type="button" class="btn btn-danger btn-sm px-3 mb-2 material-tooltip-main"
+                            data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i
+              class="fa fa-heart"></i></a>
+
+                    </div>
+
+                </div>
+                <!-- Card -->
+</div>
+            </div>
+            </div>
+            <!-- Grid column -->
+         {{/each}}
+
+        </div>
+        <!-- Grid row -->
+
+    </section>
+    <!--Section: Block Content-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
